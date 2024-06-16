@@ -1,10 +1,11 @@
 {
   "name": "expo-router-taskmanager",
-  "main": "expo-router/entry",
+  "main": "main.ts",
   "version": "1.0.0",
   "scripts": {
     "ios": "expo run:ios",
-    "ios:device": "eas build --profile preview --platform ios"
+    "ios:device": "eas build --profile preview --platform ios",
+    "android": "expo run:android"
   },
   "jest": {
     "preset": "jest-expo"
